@@ -1,16 +1,27 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Theme.Ratiba" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_200</item>
-        <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+<resources>
+
+    <style name="Fokus.Theme.Base" parent="Fokus.Theme">
+        <item name="android:statusBarColor">@color/color_status_background</item>
+        <item name="android:navigationBarColor">@color/color_navigation_background</item>
     </style>
+
+    <style name="Fokus.Theme.Core" parent="Fokus.Theme.Base">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Fokus.Theme.Core.Navigation">
+        <item name="android:navigationBarColor">@color/color_surface</item>
+    </style>
+
+    <!-- Components -->
+    <style name="Fokus.Component.Viewer" parent="Fokus.Component.Viewer.Bridge">
+        <item name="android:statusBarColor">@color/color_status_background</item>
+        <item name="android:navigationBarColor">@color/color_navigation_background</item>
+    </style>
+    <style name="Fokus.Component.BottomSheet" parent="Fokus.Component.BottomSheet.Bridge">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/color_surface</item>
+    </style>
+
 </resources>
