@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_archive"
+        android:title="@string/menu_archived"
+        android:icon="@drawable/ic_hero_archive_24"/>
+
+    <item
+        android:id="@+id/action_logs"
+        android:title="@string/navigation_logs"
+        android:icon="@drawable/ic_hero_document_report_24"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/navigation_settings"
+        android:icon="@drawable/ic_hero_cog_24"/>
+
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/navigation_about"
+        android:icon="@drawable/ic_hero_information_circle_24"/>
+
+</menu>
