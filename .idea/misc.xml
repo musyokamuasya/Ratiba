@@ -56,6 +56,7 @@
         <entry key="app/src/main/res/drawable/shape_color_holder_vertical.xml" value="0.2395" />
         <entry key="app/src/main/res/drawable/shape_icon_background.xml" value="0.2395" />
         <entry key="app/src/main/res/drawable/shape_widget_background.xml" value="0.2395" />
+        <entry key="app/src/main/res/drawable/shortcut_base_subject.xml" value="0.2395" />
         <entry key="app/src/main/res/drawable/shortcut_icon_base_event.xml" value="0.2395" />
         <entry key="app/src/main/res/drawable/toggle_checked_to_unchecked.xml" value="0.263" />
         <entry key="app/src/main/res/drawable/toggle_unchecked_to_checked.xml" value="0.263" />
