@@ -47,6 +47,7 @@
         <entry key="app/src/main/res/drawable/ic_volume_up_24.xml" value="0.263" />
         <entry key="app/src/main/res/drawable/selector_checkbox.xml" value="0.263" />
         <entry key="app/src/main/res/drawable/shape_bottom_sheet.xml" value="0.2395" />
+        <entry key="app/src/main/res/drawable/shape_calendar_current_day.xml" value="0.2395" />
         <entry key="app/src/main/res/drawable/toggle_checked_to_unchecked.xml" value="0.263" />
         <entry key="app/src/main/res/drawable/toggle_unchecked_to_checked.xml" value="0.263" />
         <entry key="app/src/main/res/drawable/vector_checked.xml" value="0.263" />
