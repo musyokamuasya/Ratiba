@@ -78,6 +78,15 @@
         <entry key="app/src/main/res/menu/navigation_core.xml" value="0.29322916666666665" />
         <entry key="app/src/main/res/menu/navigation_main.xml" value="0.29322916666666665" />
         <entry key="app/src/main/res/menu/navigation_others.xml" value="0.43984375" />
+        <entry key="app/src/main/res/xml/sml_provider_paths.xml" value="0.28396739130434784" />
+        <entry key="app/src/main/res/xml/widget_event_window.xml" value="0.28396739130434784" />
+        <entry key="app/src/main/res/xml/xml_about_main.xml" value="0.28396739130434784" />
+        <entry key="app/src/main/res/xml/xml_about_notices.xml" value="0.28396739130434784" />
+        <entry key="app/src/main/res/xml/xml_launcher_shortcuts.xml" value="0.28396739130434784" />
+        <entry key="app/src/main/res/xml/xml_settings_backups.xml" value="0.28396739130434784" />
+        <entry key="app/src/main/res/xml/xml_settings_main.xml" value="0.28396739130434784" />
+        <entry key="app/src/main/res/xml/xml_widget_subjects.xml" value="0.28396739130434784" />
+        <entry key="app/src/main/res/xml/xml_widget_tasks.xml" value="0.28396739130434784" />
       </map>
     </option>
   </component>
