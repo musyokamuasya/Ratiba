@@ -75,6 +75,7 @@
         <entry key="app/src/main/res/menu/menu_share.xml" value="0.29322916666666665" />
         <entry key="app/src/main/res/menu/menu_subjects.xml" value="0.29322916666666665" />
         <entry key="app/src/main/res/menu/menu_tasks.xml" value="0.29322916666666665" />
+        <entry key="app/src/main/res/menu/navigation_core.xml" value="0.29322916666666665" />
       </map>
     </option>
   </component>
