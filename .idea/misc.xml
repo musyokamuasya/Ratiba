@@ -42,8 +42,11 @@
         <entry key="app/src/main/res/drawable/ic_hero_translate_24.xml" value="0.263" />
         <entry key="app/src/main/res/drawable/ic_hero_trash_24.xml" value="0.263" />
         <entry key="app/src/main/res/drawable/ic_hero_upload_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_x_24.xml" value="0.263" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.263" />
         <entry key="app/src/main/res/drawable/ic_volume_up_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/selector_checkbox.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/vector_checked.xml" value="0.263" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.16510416666666666" />
       </map>
     </option>
