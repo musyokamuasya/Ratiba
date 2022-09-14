@@ -1,5 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_exclamation_circle_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_archive_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_arrow_left_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_beaker_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_bell_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_calendar_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_check_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_clipboard_list_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_clock_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_code_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_cog_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_color_swatch_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_database_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_document_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_document_report_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_dots_vertical_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_download_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_external_link_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_eye_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_filter_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_hashtag_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_home_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_information_circle_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_light_bulb_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_link_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_menu_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_pencil_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_plus_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_scale_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_share_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_sort_ascending_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_sort_descending_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_sparkles_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_speaker_phone_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_sun_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_ticket_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_translate_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_trash_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_upload_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_hero_x_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/ic_volume_up_24.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/selector_checkbox.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/shape_bottom_sheet.xml" value="0.2395" />
+        <entry key="app/src/main/res/drawable/shape_calendar_current_day.xml" value="0.2395" />
+        <entry key="app/src/main/res/drawable/shape_calendar_selected_day.xml" value="0.2395" />
+        <entry key="app/src/main/res/drawable/shape_card_background.xml" value="0.2395" />
+        <entry key="app/src/main/res/drawable/shape_cascade_background.xml" value="0.2395" />
+        <entry key="app/src/main/res/drawable/shape_color_holder.xml" value="0.2395" />
+        <entry key="app/src/main/res/drawable/shape_color_holder_chip.xml" value="0.2395" />
+        <entry key="app/src/main/res/drawable/shape_color_holder_vertical.xml" value="0.2395" />
+        <entry key="app/src/main/res/drawable/shape_icon_background.xml" value="0.2395" />
+        <entry key="app/src/main/res/drawable/shape_widget_background.xml" value="0.2395" />
+        <entry key="app/src/main/res/drawable/shortcut_base_subject.xml" value="0.2395" />
+        <entry key="app/src/main/res/drawable/shortcut_icon_base_event.xml" value="0.2395" />
+        <entry key="app/src/main/res/drawable/shortcut_icon_base_task.xml" value="0.2395" />
+        <entry key="app/src/main/res/drawable/shortcut_icon_event.xml" value="0.2395" />
+        <entry key="app/src/main/res/drawable/shortcut_icon_subject.xml" value="0.2395" />
+        <entry key="app/src/main/res/drawable/shortcut_icon_task.xml" value="0.2395" />
+        <entry key="app/src/main/res/drawable/toggle_checked_to_unchecked.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/toggle_unchecked_to_checked.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/vector_checked.xml" value="0.263" />
+        <entry key="app/src/main/res/drawable/vector_unchecked.xml" value="0.263" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.16510416666666666" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
