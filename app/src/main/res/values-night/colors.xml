@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_surface">#121212</color>
+    <color name="color_on_surface">#ffffff</color>
+    <color name="color_surface_secondary">#1c1c1c</color>
+    <color name="color_on_surface_secondary">@color/color_on_surface</color>
+
+    <color name="color_status_background">@color/color_surface</color>
+    <color name="color_toolbar_background">@color/color_surface</color>
+    <color name="color_window_background">#080808</color>
+    <color name="color_navigation_background">@color/color_window_background</color>
+
+    <color name="color_primary_text">@color/color_on_surface</color>
+    <color name="color_secondary_text">#808080</color>
+
+</resources>

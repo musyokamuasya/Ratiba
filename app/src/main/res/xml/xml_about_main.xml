@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        app:key="KEY_NOTICES"
+        app:title="@string/settings_third_party_notices"
+        app:icon="@drawable/ic_hero_scale_24"/>
+
+    <Preference
+        app:key="KEY_VERSION"
+        app:title="@string/settings_build_version"
+        app:icon="@drawable/ic_hero_code_24"/>
+
+    <PreferenceCategory
+        app:title="@string/settings_group_contribute">
+
+        <Preference
+            app:key="KEY_TRANSLATE"
+            app:title="@string/settings_translate"
+            app:icon="@drawable/ic_hero_translate_24"/>
+
+        <Preference
+            app:key="KEY_REPORT_ISSUE"
+            app:title="@string/settings_report_an_issue"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
