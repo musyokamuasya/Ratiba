@@ -68,6 +68,7 @@
         <entry key="app/src/main/res/drawable/vector_unchecked.xml" value="0.263" />
         <entry key="app/src/main/res/layout/activity_about.xml" value="0.28396739130434784" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.16510416666666666" />
+        <entry key="app/src/main/res/layout/layout_appbar.xml" value="0.29322916666666665" />
         <entry key="app/src/main/res/menu/menu_add.xml" value="0.29322916666666665" />
         <entry key="app/src/main/res/menu/menu_attachments.xml" value="0.29322916666666665" />
         <entry key="app/src/main/res/menu/menu_editor.xml" value="0.29322916666666665" />
