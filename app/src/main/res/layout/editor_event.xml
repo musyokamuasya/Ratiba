@@ -86,7 +86,7 @@
                         android:paddingHorizontal="@dimen/editor_container_padding"
                         android:visibility="gone">
 
-                        <com.isaiahvonrundstedt.fokus.components.views.TwoLineRadioButton
+                        <dev.ciox.ratiba.components.views.TwoLineRadioButton
                             android:id="@+id/inNextMeetingRadio"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -95,7 +95,7 @@
                             app:titleText="@string/field_due_in_the_next_meeting"
                             app:titleTextAppearance="@style/Fokus.TextAppearance.Editor.Value" />
 
-                        <com.isaiahvonrundstedt.fokus.components.views.TwoLineRadioButton
+                        <dev.ciox.ratiba.components.views.TwoLineRadioButton
                             android:id="@+id/pickDateTimeRadio"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -104,7 +104,7 @@
                             app:titleText="@string/field_due_pick_from_schedule"
                             app:titleTextAppearance="@style/Fokus.TextAppearance.Editor.Value"/>
 
-                        <com.isaiahvonrundstedt.fokus.components.views.TwoLineRadioButton
+                        <dev.ciox.ratiba.components.views.TwoLineRadioButton
                             android:id="@+id/customDateTimeRadio"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
