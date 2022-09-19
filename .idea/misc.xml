@@ -79,6 +79,7 @@
         <entry key="app/src/main/res/layout/activity_settings.xml" value="0.29322916666666665" />
         <entry key="app/src/main/res/layout/editor_event.xml" value="0.33106884057971014" />
         <entry key="app/src/main/res/layout/editor_subject.xml" value="0.28177083333333336" />
+        <entry key="app/src/main/res/layout/editor_task.xml" value="0.28177083333333336" />
         <entry key="app/src/main/res/layout/fragment_archived_event.xml" value="0.29322916666666665" />
         <entry key="app/src/main/res/layout/fragment_archived_subject.xml" value="0.29322916666666665" />
         <entry key="app/src/main/res/layout/fragment_archived_task.xml" value="0.29322916666666665" />
