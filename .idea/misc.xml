@@ -105,6 +105,7 @@
         <entry key="app/src/main/res/layout/layout_item_log.xml" value="0.2828125" />
         <entry key="app/src/main/res/layout/layout_item_menu.xml" value="0.28177083333333336" />
         <entry key="app/src/main/res/layout/layout_item_schedule.xml" value="0.5932017543859649" />
+        <entry key="app/src/main/res/layout/layout_item_schedule_editor.xml" value="0.28177083333333336" />
         <entry key="app/src/main/res/layout/test_layout.xml" value="0.28177083333333336" />
         <entry key="app/src/main/res/menu/menu_add.xml" value="0.29322916666666665" />
         <entry key="app/src/main/res/menu/menu_attachments.xml" value="0.29322916666666665" />
