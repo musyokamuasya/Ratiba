@@ -13,7 +13,7 @@ import dev.ciox.ratiba.R
 class TwoLineRadioButton @JvmOverloads constructor(
     context: Context,
     attributeSet: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.radioButtonStyle
+    defStyleAttr: Int = com.google.android.material.R.attr.radioButtonStyle
 ) : RadioButtonCompat(context, attributeSet, defStyleAttr) {
 
     private val titleSpan: TextAppearanceSpan
@@ -68,14 +68,14 @@ class TwoLineRadioButton @JvmOverloads constructor(
 
             val titleTextAppearance = typedArray.getResourceId(
                 R.styleable.TwoLineRadioButton_titleTextAppearance,
-                R.style.TextAppearance_AppCompat_Body1
+                com.google.android.material.R.style.TextAppearance_AppCompat_Body1
             )
             titleSpan = TextAppearanceSpan(context, titleTextAppearance)
             titleTextColorSpan = ForegroundColorSpan(titleTextColor)
 
             val subtitleTextAppearance = typedArray.getResourceId(
                 R.styleable.TwoLineRadioButton_subtitleTextAppearance,
-                R.style.TextAppearance_AppCompat_Caption
+                com.google.android.material.R.style.TextAppearance_AppCompat_Caption
             )
             subtitleSpan = TextAppearanceSpan(context, subtitleTextAppearance)
             subtitleTextColorSpan = ForegroundColorSpan(subtitleTextColor)
