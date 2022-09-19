@@ -93,8 +93,10 @@
         <entry key="app/src/main/res/layout/layout_appbar_viewer.xml" value="0.28177083333333336" />
         <entry key="app/src/main/res/layout/layout_calendar_day.xml" value="0.29322916666666665" />
         <entry key="app/src/main/res/layout/layout_calendar_week_days.xml" value="0.29322916666666665" />
+        <entry key="app/src/main/res/layout/layout_dialog_input_attachment.xml" value="0.28177083333333336" />
         <entry key="app/src/main/res/layout/layout_error_schedule.xml" value="0.4136085626911315" />
         <entry key="app/src/main/res/layout/layout_item_add.xml" value="0.28177083333333336" />
+        <entry key="app/src/main/res/layout/layout_item_archived_event.xml" value="0.28177083333333336" />
         <entry key="app/src/main/res/layout/test_layout.xml" value="0.28177083333333336" />
         <entry key="app/src/main/res/menu/menu_add.xml" value="0.29322916666666665" />
         <entry key="app/src/main/res/menu/menu_attachments.xml" value="0.29322916666666665" />
