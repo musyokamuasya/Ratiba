@@ -2,6 +2,7 @@ package dev.ciox.ratiba.components.extensions.android
 
 import android.content.Intent
 import android.os.Parcelable
+import dev.ciox.ratiba.components.extensions.jdk.toArrayList
 
 fun <T : Parcelable> Intent.putExtra(key: String, items: List<T>) {
     putParcelableArrayListExtra(key, items.toArrayList())
