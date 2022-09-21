@@ -375,6 +375,6 @@ abstract class AppDatabase : RoomDatabase() {
         }
 
         private val migrations =
-            arrayOf(migration_0_1, migration_5_6, migration_1_2, migration_5_7, migration_6_7)
+            arrayOf(migration_0_1, migration_5_6, migration_1_2 , migration_5_7, migration_6_7)
     }
 }
