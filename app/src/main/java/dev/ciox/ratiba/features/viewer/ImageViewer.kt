@@ -6,8 +6,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.os.bundleOf
 import androidx.fragment.app.FragmentManager
+import coil.load
 import dev.ciox.ratiba.databinding.LayoutViewerImageBinding
 import dev.ciox.ratiba.features.shared.abstracts.BaseViewer
+import java.io.File
 
 class ImageViewer(manager: FragmentManager) : BaseViewer(manager) {
     private var _binding: LayoutViewerImageBinding? = null
