@@ -1,6 +1,7 @@
 package dev.ciox.ratiba.database.converter
 
 import androidx.room.TypeConverter
+import dev.ciox.ratiba.features.subject.Subject
 
 class ColorConverter private constructor() {
 
