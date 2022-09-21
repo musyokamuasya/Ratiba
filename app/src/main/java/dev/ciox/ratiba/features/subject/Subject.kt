@@ -16,6 +16,7 @@ import dev.ciox.ratiba.R
 import dev.ciox.ratiba.components.interfaces.Streamable
 import dev.ciox.ratiba.components.json.JsonDataStreamer
 import dev.ciox.ratiba.database.converter.ColorConverter
+import kotlinx.android.parcel.Parcelize
 import okio.buffer
 import okio.sink
 import java.io.File
