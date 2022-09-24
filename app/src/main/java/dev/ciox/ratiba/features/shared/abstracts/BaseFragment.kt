@@ -121,7 +121,7 @@ abstract class BaseFragment : Fragment() {
             interpolator = FastOutSlowInInterpolator()
             setAllContainerColors(
                 MaterialColors.getColor(
-                    requireContext(), R.attr.colorSurface,
+                    requireContext(), com.google.android.material.R.attr.colorSurface,
                     ContextCompat.getColor(requireContext(), R.color.color_surface)
                 )
             )
