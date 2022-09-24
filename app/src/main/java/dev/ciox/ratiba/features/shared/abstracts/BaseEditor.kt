@@ -1,8 +1,14 @@
 package dev.ciox.ratiba.features.shared.abstracts
 
 import android.content.res.Configuration
+import android.graphics.Color
+import android.os.Build
+import android.view.View
+import android.view.WindowInsetsController
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
+import androidx.core.content.ContextCompat
+import dev.ciox.ratiba.R
 
 abstract class BaseEditor : BaseFragment() {
 
