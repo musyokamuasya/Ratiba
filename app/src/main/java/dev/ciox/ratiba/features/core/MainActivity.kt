@@ -1,5 +1,6 @@
 package dev.ciox.ratiba.features.core
 
+import android.app.NotificationManager
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,7 +9,10 @@ import androidx.core.os.bundleOf
 import androidx.navigation.NavController
 import dagger.hilt.android.AndroidEntryPoint
 import dev.ciox.ratiba.R
+import dev.ciox.ratiba.components.bottomsheet.NavigationSheet
+import dev.ciox.ratiba.components.utils.NotificationChannelManager
 import dev.ciox.ratiba.databinding.ActivityMainBinding
+import dev.ciox.ratiba.features.notifications.task.TaskReminderWorker
 import dev.ciox.ratiba.features.shared.abstracts.BaseActivity
 import dev.ciox.ratiba.features.task.TaskViewModel
 
