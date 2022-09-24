@@ -6,6 +6,7 @@ import androidx.work.WorkerParameters
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import dev.ciox.ratiba.components.service.NotificationActionService
+import dev.ciox.ratiba.database.repository.TaskRepository
 import dev.ciox.ratiba.features.shared.abstracts.BaseWorker
 
 @HiltWorker
