@@ -6,6 +6,7 @@ import androidx.hilt.work.HiltWorker
 import androidx.work.WorkerParameters
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
+import dev.ciox.ratiba.database.repository.LogRepository
 import dev.ciox.ratiba.features.log.Log
 import dev.ciox.ratiba.features.shared.abstracts.BaseWorker
 import java.time.ZonedDateTime
