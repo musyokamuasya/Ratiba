@@ -4,6 +4,7 @@ import androidx.lifecycle.*
 import dagger.hilt.android.lifecycle.HiltViewModel
 import dev.ciox.ratiba.components.enums.SortDirection
 import dev.ciox.ratiba.components.utils.PreferenceManager
+import dev.ciox.ratiba.database.repository.SubjectRepository
 import dev.ciox.ratiba.features.schedule.Schedule
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.NonCancellable
