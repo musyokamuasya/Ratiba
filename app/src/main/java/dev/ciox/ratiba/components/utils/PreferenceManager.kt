@@ -3,8 +3,12 @@ package dev.ciox.ratiba.components.utils
 import android.content.ContentResolver
 import android.content.Context
 import androidx.preference.PreferenceManager
+import dev.ciox.ratiba.BuildConfig
+import dev.ciox.ratiba.R
 import dev.ciox.ratiba.components.enums.SortDirection
 import dev.ciox.ratiba.database.converter.DateTimeConverter
+import dev.ciox.ratiba.features.subject.SubjectViewModel
+import dev.ciox.ratiba.features.task.TaskViewModel
 import java.time.LocalTime
 import java.time.ZonedDateTime
 
@@ -207,12 +211,12 @@ class PreferenceManager (private val context: Context?) {
         }
 
     private val sharedPreference by lazy {
-        PreferenceManager.getDefaultSharedPreferences(context)
+        PreferenceManager.getDefaultSharedPreferences(context!!)
     }
 
     companion object {
         const val DEFAULT_SOUND =
-            "${ContentResolver.SCHEME_ANDROID_RESOURCE}://${BuildConfig.APPLICATION_ID}/${R.raw.fokus}"
+            "${ContentResolver.SCHEME_ANDROID_RESOURCE}://${BuildConfig.APPLICATION_ID}/${R.raw.ratiba_sound}"
 
         const val DURATION_EVERYDAY = "EVERYDAY"
         const val DURATION_WEEKENDS = "WEEKENDS"
