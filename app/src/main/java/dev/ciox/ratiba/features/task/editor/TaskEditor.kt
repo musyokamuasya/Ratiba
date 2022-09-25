@@ -56,7 +56,7 @@ class TaskEditor : BaseEditor(), BaseAdapter.ActionListener, FragmentResultListe
     private var controller: NavController? = null
     private var requestKey = REQUEST_KEY_INSERT
 
-    private val attachmentAdapter = AttachmentAdapter(this)
+    private val attachmentAdapter by lazy { AttachmentAdapter(this) }
     private val viewModel: TaskEditorViewModel by viewModels()
     private val binding get() = _binding!!
 
