@@ -7,14 +7,25 @@ import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.core.os.bundleOf
 import androidx.navigation.NavController
+import androidx.navigation.findNavController
 import dagger.hilt.android.AndroidEntryPoint
 import dev.ciox.ratiba.R
 import dev.ciox.ratiba.components.bottomsheet.NavigationSheet
+import dev.ciox.ratiba.components.extensions.android.getParcelableListExtra
 import dev.ciox.ratiba.components.utils.NotificationChannelManager
 import dev.ciox.ratiba.databinding.ActivityMainBinding
+import dev.ciox.ratiba.features.attachments.Attachment
+import dev.ciox.ratiba.features.core.MainActivity.Companion.EXTRA_ATTACHMENTS
+import dev.ciox.ratiba.features.core.MainActivity.Companion.EXTRA_EVENT
+import dev.ciox.ratiba.features.core.MainActivity.Companion.EXTRA_SUBJECT
+import dev.ciox.ratiba.features.event.Event
+import dev.ciox.ratiba.features.event.editor.EventEditor
 import dev.ciox.ratiba.features.notifications.task.TaskReminderWorker
 import dev.ciox.ratiba.features.shared.abstracts.BaseActivity
+import dev.ciox.ratiba.features.subject.Subject
+import dev.ciox.ratiba.features.task.Task
 import dev.ciox.ratiba.features.task.TaskViewModel
+import dev.ciox.ratiba.features.task.editor.TaskEditor
 
 @AndroidEntryPoint
 class MainActivity : BaseActivity() {
