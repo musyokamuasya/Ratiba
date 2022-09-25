@@ -3,13 +3,17 @@ package dev.ciox.ratiba.features.task.editor
 import android.content.ClipboardManager
 import androidx.lifecycle.*
 import dagger.hilt.android.lifecycle.HiltViewModel
+import dev.ciox.ratiba.components.extensions.jdk.toArrayList
 import dev.ciox.ratiba.database.dao.ScheduleDAO
 import dev.ciox.ratiba.database.repository.TaskRepository
 import dev.ciox.ratiba.features.attachments.Attachment
 import dev.ciox.ratiba.features.schedule.Schedule
 import dev.ciox.ratiba.features.subject.Subject
 import dev.ciox.ratiba.features.task.Task
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.NonCancellable
 import kotlinx.coroutines.launch
+import java.time.LocalDate
 import java.time.ZonedDateTime
 import javax.inject.Inject
 
@@ -120,3 +124,103 @@ class TaskEditorViewModel @Inject constructor(
         task?.subject = id
         setTask(task)
     }
+
+    fun getImportant(): Boolean {
+        return getTask()?.isImportant == true
+    }
+
+    fun setImportant(isImportant: Boolean) {
+        val task = getTask()
+        task?.isImportant = isImportant
+        setTask(task)
+    }
+
+    fun getFinished(): Boolean {
+        return getTask()?.isFinished == true
+    }
+
+    fun setFinished(isFinished: Boolean) {
+        val task = getTask()
+        task?.isFinished = isFinished
+        setTask(task)
+    }
+
+    fun getNotes(): String? {
+        return getTask()?.notes
+    }
+
+    fun setNotes(notes: String?) {
+        // Check if the same value is being set
+        if (notes == getNotes())
+            return
+
+        val task = getTask()
+        task?.notes = notes
+        setTask(task)
+    }
+
+    fun hasFileAttachment(): Boolean {
+        return getAttachments().any {
+            it.type != Attachment.TYPE_WEBSITE_LINK
+        }
+    }
+
+    fun fetchRecentItemFromClipboard(): String =
+        clipboardManager.primaryClip?.getItemAt(0)?.text.toString()
+
+    fun setNextMeetingForDueDate() {
+        setDueDate(getDateTimeForNextMeeting())
+    }
+
+    fun setClassScheduleAsDueDate(schedule: Schedule) {
+        setDueDate(schedule.startTime?.let {
+            Schedule.getNearestDateTime(schedule.daysOfWeek, it)
+        })
+    }
+
+    private fun getDateTimeForNextMeeting(): ZonedDateTime? {
+        val currentDate = LocalDate.now()
+        val individualDates = mutableListOf<Schedule>()
+
+        // Create new instance of schedule with
+        // one day of week each
+        schedules.forEach {
+            it.parseDaysOfWeek().forEach { day ->
+                val newSchedule = Schedule(
+                    startTime = it.startTime,
+                    endTime = it.endTime
+                )
+                newSchedule.daysOfWeek = day
+                individualDates.add(newSchedule)
+            }
+        }
+
+        // Map the schedules to their respective
+        // dateTime instances
+        val dates = individualDates.map {
+            it.startTime?.let { time -> Schedule.getNearestDateTime(it.daysOfWeek, time) }
+        }
+        if (dates.isEmpty())
+            return null
+
+        return dates.singleOrNull {
+            currentDate.isAfter(it?.toLocalDate()) || currentDate.isEqual(it?.toLocalDate())
+        } ?: dates[0]
+    }
+
+    private fun fetchSchedulesFromDatabase(id: String) = viewModelScope.launch {
+        schedules.addAll(scheduleDao.fetchUsingID(id))
+    }
+
+    fun insert() = viewModelScope.launch(Dispatchers.IO + NonCancellable) {
+        getTask()?.let {
+            repository.insert(it, getAttachments())
+        }
+    }
+
+    fun update() = viewModelScope.launch(Dispatchers.IO + NonCancellable) {
+        getTask()?.let {
+            repository.update(it, getAttachments())
+        }
+    }
+}
