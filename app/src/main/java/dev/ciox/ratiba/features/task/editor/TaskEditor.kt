@@ -33,6 +33,7 @@ import com.google.android.material.textfield.TextInputEditText
 import dagger.hilt.android.AndroidEntryPoint
 import dev.ciox.ratiba.R
 import dev.ciox.ratiba.components.bottomsheet.NavigationSheet.Companion.REQUEST_KEY
+import dev.ciox.ratiba.components.service.DataExporterService
 import dev.ciox.ratiba.components.utils.PermissionManager
 import dev.ciox.ratiba.components.utils.PreferenceManager
 import dev.ciox.ratiba.databinding.EditorTaskBinding
@@ -46,6 +47,7 @@ import dev.ciox.ratiba.features.shared.abstracts.BaseAdapter
 import dev.ciox.ratiba.features.shared.abstracts.BaseEditor
 import dev.ciox.ratiba.features.subject.Subject
 import dev.ciox.ratiba.features.subject.SubjectPackage
+import dev.ciox.ratiba.features.subject.picker.SubjectPickerActivity
 import dev.ciox.ratiba.features.task.Task
 import java.io.File
 import javax.inject.Inject
